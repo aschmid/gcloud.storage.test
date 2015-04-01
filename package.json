@@ -1,0 +1,27 @@
+{
+  "name": "gcloud.storage.test",
+  "description": "proof where file upload with node 0.11.0 doesnt work",
+  "version": "0.0.1",
+  "author": {
+    "name": "pepe"
+  },
+  "keywords": [
+    "coffeescript"
+  ],
+  "contributors": [
+    {
+      "name": "aschmid"
+    }
+  ],
+  "dependencies": {
+    "coffee-script": ">=1.7.1",
+    "walkdir"      : "*",
+    "gcloud"       : "*",
+    "async"        : "*"
+  },
+  "main": "./lib/start.js",
+  "bin": {
+    "deploy": "./bin/start"
+  },
+  "readmeFilename": "README.md"
+}
